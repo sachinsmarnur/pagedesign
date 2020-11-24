@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fluentdesignforweb.github.io/fluent.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     
@@ -48,14 +49,14 @@
 
     <div class="page_container">  
 
-        <div class="column large12 vert_space" id="about"> 
-            <h2>About Me</h2>
-            <p>I am Sachin S Marnur currently pursuing B-Tech in Electronics and Communication at REVA University,
+        <div class="column large12 vert_space" id="about" data-aos="fade-in"> 
+            <h2 data-aos="fade-down-right">About Me</h2>
+            <p data-aos="zoom-in">I am Sachin S Marnur currently pursuing B-Tech in Electronics and Communication at REVA University,
 	           I enjoy coding and problem solving. Acquiring Knowledge on Antenna Design and AI. Skilled in C/C++, HTML, CSS, and SQL.
             </p>
         </div>
 
-        <div class="dlevel3 content_padding" id="WhatIdo">
+        <div class="dlevel3 content_padding" id="WhatIdo" data-aos="fade-down">
             <div class="column large6">
                 <h2>What I Do</h2>
                 <p>
@@ -63,7 +64,7 @@
                 </p>
             </div>
 
-            <div class="column large6">
+            <div class="column large6" data-aos="zoom-in">
                 <h2>My Skills</h2>
                 <button class="skill_color dlevel4">HTML5</button>
                 <button class="skill_color dlevel4">CSS3</button>
@@ -76,29 +77,29 @@
 
         </div>
         
-        <div class="column large6 vert_space" id="Portfolio"> 
-            <h2>My Portfolio / Projects</h2>
-            <ul>  
+        <div class="column large6 vert_space" id="Portfolio" data-aos="fade-right"> 
+            <h2 data-aos="zoom-out">My Portfolio / Projects</h2>
+            <ul data-aos="zoom-out">  
                 <li>IoT Based Smoke and Harmful gases detection with "GSM"</li>
-                <li>
+                <li data-aos="zoom-out">
                     <p>
                         The main aim of this project is to design a WiFi based, for continuous monitoring of air pollution using internet of things.
                     </p>
                 </li>
             </ul>
 
-            <ul>   
+            <ul data-aos="zoom-out">   
                 <li>Touch Sensor switch using 555 timer</li>
-                <li>
+                <li data-aos="zoom-out">
                     <p>
                         This simple Touch Switch is developed by using 555 timer IC operated as a MONOSTABLE vibrator. Here the stable stage is LOW, so the timer outputs low after the trigger is removed. Basically in this circuit we will have a LED which turns ON when we touch a pin of timer. The LED will be ON for the time during which the trigger is present. Once the trigger is removed the LED turns OFF.
                     </p>
                 </li>
             </ul>
 
-            <ul>
+            <ul data-aos="zoom-out">
                 <li>Color Game Project</li>
-                <li>
+                <li data-aos="zoom-out">
                     <p>
                         Simple Project Done through HTML, CSS and Javascript.
                     </p>
@@ -107,19 +108,19 @@
 
         </div>
 
-        <div class="column large6 vert_space"> 
-            <h2>Achievemnts</h2>
-            <ul>   
+        <div class="column large6 vert_space" data-aos="fade-left"> 
+            <h2 data-aos="zoom-out">Achievemnts</h2>
+            <ul data-aos="zoom-out">   
                 <li>Published Paper on my Project</li>
-                <li>
+                <li data-aos="zoom-out">
                     <p>
                         My paper has been published at International Conference on Recent Trends in Electronics and Communication Engineering(ICRTECE).
                     </p>
                 </li>
             </ul>
-            <ul>
+            <ul data-aos="zoom-out">
                 <li>Astronomy Olympiad</li>
-                <li>
+                <li data-aos="zoom-out">
                     <p>
                         Participated in astronomy olympiad organised by NASA. 
                     </p>
@@ -127,8 +128,8 @@
             </ul>
         </div>
 
-        <div class="dlevel4 div_padding">
-            <h2 id="webproj">Recent Web Projects Undertaken</h2>
+        <div class="dlevel4 div_padding" data-aos="flip-left">
+            <h2 id="webproj" data-aos="fade-right">Recent Web Projects Undertaken</h2>
             <div class="column large6 content_padding vert_space">
             	<h4>Color Game Project</h4>
             	<a href="https://sachinsmarnur.github.io/colorgame/"><img class="project dlevel4" src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1867/https://code-projects.org/wp-content/uploads/2019/09/Screenshot-63.png"></a>
@@ -143,33 +144,43 @@
 
 
 	<div class="footer" id="Contact">
-	<div class="column large6">
-		<a href="mailto:sachin.marnur99@gmail.com" class="contact_options">Mail me</a><br>
-		<a href="tel:**********" class="contact_options">Text Me</a>
+	    <div class="column large6">
+		    <a href="mailto:sachin.marnur99@gmail.com" class="contact_options">Mail me</a><br>
+		    <a href="tel:**********" class="contact_options">Text Me</a>
+        </div>
+
+	    <h6>By following me on these social media platforms</h6>
+
+	    <div class="column large6">
+	        <a href="https://www.facebook.com/profile.php?id=100006836987187">
+		        <img src="./social/facebook.png" class="social_icon dlevel3">
+	        </a>
+	        <a href=" https://www.instagram.com/sachin_s_marnur/?hl=en">
+			    <img src="./social/instagram.png" class="social_icon dlevel3">
+		    </a>
+		    <a href="https://www.linkedin.com/in/sachin-s-marnur-329a02190/">
+			    <img src="./social/linkedin.png" class="social_icon dlevel3">
+		    </a>
+		    <a href="https://github.com/sachinsmarnur">
+			    <img src="./social/github.png" class="social_icon dlevel3">
+		    </a>
+        </div>
 	</div>
 
-	<h6>By following me on these social media platforms</h6>
-
-	<div class="column large6">
-	   <a href="https://www.facebook.com/profile.php?id=100006836987187">
-		<img src="./social/facebook.png" class="social_icon dlevel3">
-	   </a>
-	   <a href=" https://www.instagram.com/sachin_s_marnur/?hl=en">
-			<img src="./social/instagram.png" class="social_icon dlevel3">
-		</a>
-		<a href="https://www.linkedin.com/in/sachin-s-marnur-329a02190/">
-			<img src="./social/linkedin.png" class="social_icon dlevel3">
-		</a>
-		<a href="https://github.com/sachinsmarnur">
-			<img src="./social/github.png" class="social_icon dlevel3">
-		</a>
-    </div>
-	</div>
-
-	<script type="text/javascript" src="clock.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" 
     integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" 
     crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="clock.js"></script>
+
     <script type="text/javascript" src="pagedesign.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 350,
+            duration: 750
+        });
+    </script>
 </body>
 </html>
