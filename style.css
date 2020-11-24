@@ -159,7 +159,7 @@ h2.anim{
   }
   .bottom_left {
     left: 1.4rem;
-    font-size: 15px;
+    font-size: 11px;
     top: 6rem;
   }
   .div_padding {
@@ -167,5 +167,12 @@ h2.anim{
   }
   .intro-text {
     font-size: 52%;
+  }
+  .cover {
+    background-image: url("./image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 99vh;
+    width: 100%;
   }
 }
