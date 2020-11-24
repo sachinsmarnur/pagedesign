@@ -22,7 +22,6 @@
 .cover {
   background-image: url("./image1.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   height: 99vh;
   width: 100%;
